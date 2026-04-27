@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+@theme inline {
+  --color-background: var(--wk-ivory);
+  --color-foreground: var(--wk-ink);
+  --color-paper: var(--wk-paper);
+  --color-bone: var(--wk-bone);
+  --color-graphite: var(--wk-graphite);
+  --color-stone: var(--wk-stone);
+  --color-green: var(--wk-green);
+  --color-green-deep: var(--wk-green-deep);
+  --color-ochre: var(--wk-ochre);
+  --font-sans: var(--font-inter-tight);
+  --font-serif: var(--font-fraunces);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+* {
+  border-color: rgb(15 26 20 / 8%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--wk-ivory);
+  color: var(--wk-ink);
+  font-family: var(--font-inter-tight), system-ui, sans-serif;
+}
+
+a,
+button {
+  transition:
+    color 200ms ease,
+    background-color 200ms ease,
+    border-color 200ms ease,
+    box-shadow 200ms ease,
+    transform 200ms ease;
+}
+
+::selection {
+  background: rgb(45 122 62 / 18%);
+}

@@ -1,0 +1,146 @@
+{
+  "site": {
+    "name": "Wakama",
+    "description": "Institutional phygital infrastructure for agricultural lending in West Africa."
+  },
+  "navigation": {
+    "products": "Products",
+    "solutions": "Solutions",
+    "technology": "Technology",
+    "compliance": "Compliance",
+    "company": "Company",
+    "contact": "Contact",
+    "productsItems": {
+      "score": "Wakama Score",
+      "services": "Wakama Services",
+      "insurance": "Wakama Insurance"
+    },
+    "solutionsItems": {
+      "imf": "For MFIs",
+      "banks": "For Banks",
+      "insurers": "For Insurers"
+    },
+    "companyItems": {
+      "about": "About",
+      "team": "Team",
+      "newsroom": "Newsroom",
+      "investors": "Investors"
+    },
+    "locale": {
+      "fr": "FR",
+      "en": "EN"
+    }
+  },
+  "footer": {
+    "products": "Products",
+    "solutions": "Solutions",
+    "company": "Company",
+    "legal": "Legal",
+    "investors": "Investors",
+    "contact": "Contact",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "compliance": "Compliance",
+    "ecosystem": "zrt.wakama.farm — Wakama Web3 ecosystem",
+    "copyright": "© 2026 Wakama Edge Ventures. All rights reserved."
+  },
+  "home": {
+    "eyebrow": "BCEAO-COMPLIANT INFRASTRUCTURE",
+    "title": "De-risk lending. Industrialize operations. Finance more farmers.",
+    "subtitle": "Agricultural credit scoring and managed services, operated by seasoned professionals, powered by BCEAO-compliant AI.",
+    "primaryCta": "Request a demo",
+    "secondaryCta": "See how it works",
+    "statsTag": "INITIAL SETUP",
+    "statsTitle": "The Wakama institutional site foundation is ready.",
+    "statsBody": "Next.js 15, Tailwind CSS 4, next-intl, and the core component structure are installed in the target architecture."
+  },
+  "common": {
+    "comingSoon": "This page is being prepared.",
+    "viewArticle": "View article"
+  },
+  "routes": {
+    "products": {
+      "score": {
+        "title": "Wakama Score",
+        "description": "Institutional agricultural scoring engine."
+      },
+      "services": {
+        "title": "Wakama Services",
+        "description": "Managed services to industrialize origination."
+      },
+      "insurance": {
+        "title": "Wakama Insurance",
+        "description": "Field data and risk signals for parametric insurance."
+      }
+    },
+    "solutions": {
+      "imf": {
+        "title": "Solutions for MFIs",
+        "description": "Dedicated journey for microfinance institutions."
+      },
+      "banks": {
+        "title": "Solutions for Banks",
+        "description": "Dedicated journey for banks with agricultural exposure."
+      },
+      "insurers": {
+        "title": "Solutions for Insurers",
+        "description": "Dedicated journey for parametric insurers."
+      }
+    },
+    "technology": {
+      "title": "Technology",
+      "description": "Platform, field orchestration, and compliant AI."
+    },
+    "compliance": {
+      "title": "Compliance",
+      "description": "BCEAO framework, auditability, and model governance."
+    },
+    "company": {
+      "about": {
+        "title": "About",
+        "description": "Wakama's positioning, mission, and operating model."
+      },
+      "team": {
+        "title": "Team",
+        "description": "Leadership, field expertise, and execution."
+      },
+      "newsroom": {
+        "title": "Newsroom",
+        "description": "Press releases, product updates, and partnerships."
+      }
+    },
+    "investors": {
+      "title": "Investors",
+      "description": "Traction, vision, and institutional roadmap."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Get in touch with the Wakama team."
+    },
+    "legal": {
+      "terms": {
+        "title": "Terms",
+        "description": "Website terms and conditions."
+      },
+      "privacy": {
+        "title": "Privacy",
+        "description": "Website privacy policy."
+      }
+    }
+  },
+  "newsroom": {
+    "launch": {
+      "title": "Wakama institutional website foundation launched",
+      "date": "2026-04-27",
+      "category": "Announcement",
+      "excerpt": "The bilingual foundation of the Wakama institutional website is now in place."
+    }
+  },
+  "contactForm": {
+    "name": "Name",
+    "email": "Work email",
+    "organization": "Organization",
+    "message": "Message",
+    "submit": "Submit"
+  }
+}

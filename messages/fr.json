@@ -1,0 +1,146 @@
+{
+  "site": {
+    "name": "Wakama",
+    "description": "Infrastructure phygitale institutionnelle pour le crédit agricole en Afrique de l'Ouest."
+  },
+  "navigation": {
+    "products": "Produits",
+    "solutions": "Solutions",
+    "technology": "Technologie",
+    "compliance": "Conformité",
+    "company": "Entreprise",
+    "contact": "Contact",
+    "productsItems": {
+      "score": "Wakama Score",
+      "services": "Wakama Services",
+      "insurance": "Wakama Insurance"
+    },
+    "solutionsItems": {
+      "imf": "Pour les IMF",
+      "banks": "Pour les banques",
+      "insurers": "Pour les assureurs"
+    },
+    "companyItems": {
+      "about": "À propos",
+      "team": "Équipe",
+      "newsroom": "Newsroom",
+      "investors": "Investisseurs"
+    },
+    "locale": {
+      "fr": "FR",
+      "en": "EN"
+    }
+  },
+  "footer": {
+    "products": "Produits",
+    "solutions": "Solutions",
+    "company": "Entreprise",
+    "legal": "Légal",
+    "investors": "Investisseurs",
+    "contact": "Contact",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "compliance": "Conformité",
+    "ecosystem": "zrt.wakama.farm — Écosystème Web3 Wakama",
+    "copyright": "© 2026 Wakama Edge Ventures. Tous droits réservés."
+  },
+  "home": {
+    "eyebrow": "INFRASTRUCTURE CONFORME BCEAO",
+    "title": "Réduisez le risque. Industrialisez vos opérations. Financez plus d'agriculteurs.",
+    "subtitle": "Plateforme de scoring agricole et services managés, opérée par des professionnels, alimentée par une IA conforme BCEAO.",
+    "primaryCta": "Demander une démo",
+    "secondaryCta": "Voir comment ça marche",
+    "statsTag": "SETUP INITIAL",
+    "statsTitle": "Le socle du site institutionnel Wakama est prêt.",
+    "statsBody": "Next.js 15, Tailwind CSS 4, next-intl et les composants de base sont installés dans l'architecture cible."
+  },
+  "common": {
+    "comingSoon": "Cette page est en préparation.",
+    "viewArticle": "Lire l'article"
+  },
+  "routes": {
+    "products": {
+      "score": {
+        "title": "Wakama Score",
+        "description": "Moteur de scoring agricole institutionnel."
+      },
+      "services": {
+        "title": "Wakama Services",
+        "description": "Services managés pour industrialiser l'origination."
+      },
+      "insurance": {
+        "title": "Wakama Insurance",
+        "description": "Données terrain et signaux de risque pour l'assurance paramétrique."
+      }
+    },
+    "solutions": {
+      "imf": {
+        "title": "Solutions pour les IMF",
+        "description": "Parcours dédié aux institutions de microfinance."
+      },
+      "banks": {
+        "title": "Solutions pour les banques",
+        "description": "Parcours dédié aux banques exposées au crédit agricole."
+      },
+      "insurers": {
+        "title": "Solutions pour les assureurs",
+        "description": "Parcours dédié aux assureurs paramétriques."
+      }
+    },
+    "technology": {
+      "title": "Technologie",
+      "description": "Plateforme, orchestration terrain et IA de conformité."
+    },
+    "compliance": {
+      "title": "Conformité",
+      "description": "Cadre BCEAO, auditabilité et gouvernance des modèles."
+    },
+    "company": {
+      "about": {
+        "title": "À propos",
+        "description": "Positionnement, mission et modèle opératoire de Wakama."
+      },
+      "team": {
+        "title": "Équipe",
+        "description": "Leadership, expertise terrain et exécution."
+      },
+      "newsroom": {
+        "title": "Newsroom",
+        "description": "Communiqués, annonces produit et partenariats."
+      }
+    },
+    "investors": {
+      "title": "Investisseurs",
+      "description": "Traction, vision et feuille de route institutionnelle."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Prenez contact avec l'équipe Wakama."
+    },
+    "legal": {
+      "terms": {
+        "title": "Conditions",
+        "description": "Conditions générales du site."
+      },
+      "privacy": {
+        "title": "Confidentialité",
+        "description": "Politique de confidentialité du site."
+      }
+    }
+  },
+  "newsroom": {
+    "launch": {
+      "title": "Lancement du nouveau site institutionnel Wakama",
+      "date": "2026-04-27",
+      "category": "Annonce",
+      "excerpt": "La base bilingue du site institutionnel Wakama est maintenant en place."
+    }
+  },
+  "contactForm": {
+    "name": "Nom",
+    "email": "Email professionnel",
+    "organization": "Organisation",
+    "message": "Message",
+    "submit": "Envoyer"
+  }
+}
