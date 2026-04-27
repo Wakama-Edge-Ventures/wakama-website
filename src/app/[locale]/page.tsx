@@ -1,22 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server"
-import { Hero } from "@/components/sections/Hero"
-import { Stats } from "@/components/sections/Stats"
-import { buildMetadata } from "@/lib/seo"
-import type { Locale } from "@/types"
-
-export async function generateMetadata({
-  params
-}: Readonly<{
-  params: Promise<{ locale: string }>
-}>) {
-  const { locale } = await params
-  const t = await getTranslations({ locale, namespace: "site" })
-
-  return buildMetadata(t("name"), t("description"))
-}
 
 export default async function HomePage({
-  params
+  params,
 }: Readonly<{
   params: Promise<{ locale: string }>
 }>) {
@@ -25,16 +10,16 @@ export default async function HomePage({
   const t = await getTranslations({ locale, namespace: "home" })
 
   return (
-    <>
-      <Hero
-        locale={locale as Locale}
-        eyebrow={t("eyebrow")}
-        title={t("title")}
-        subtitle={t("subtitle")}
-        primaryCta={t("primaryCta")}
-        secondaryCta={t("secondaryCta")}
-      />
-      <Stats tag={t("statsTag")} title={t("statsTitle")} body={t("statsBody")} />
-    </>
+    <section className="flex min-h-[80vh] flex-col items-center justify-center px-6 text-center">
+      <span className="mb-4 font-mono text-sm uppercase tracking-widest text-wk-green">
+        {t("eyebrow")}
+      </span>
+      <h1 className="max-w-3xl text-5xl font-semibold md:text-7xl">
+        {t("title")}
+      </h1>
+      <p className="mt-6 max-w-2xl text-lg text-wk-stone">
+        {t("subtitle")}
+      </p>
+    </section>
   )
 }

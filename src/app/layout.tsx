@@ -5,38 +5,41 @@ import "./globals.css"
 
 const fraunces = Fraunces({
   subsets: ["latin"],
-  variable: "--font-fraunces"
+  variable: "--font-display",
+  display: "swap",
+  axes: ["opsz"],
 })
 
 const interTight = Inter_Tight({
   subsets: ["latin"],
-  variable: "--font-inter-tight"
+  variable: "--font-body",
+  weight: ["400", "500", "600"],
+  display: "swap",
 })
 
-const jetBrainsMono = JetBrains_Mono({
+const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
-  variable: "--font-jetbrains-mono"
+  variable: "--font-mono",
+  weight: ["500"],
+  display: "swap",
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://wakama.farm")
+  metadataBase: new URL("https://wakama.farm"),
 }
 
 export default async function RootLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
   const locale = (await headers()).get("x-next-intl-locale") ?? "fr"
-
   return (
     <html
       lang={locale}
-      className={`${fraunces.variable} ${interTight.variable} ${jetBrainsMono.variable}`}
+      className={`${fraunces.variable} ${interTight.variable} ${jetbrainsMono.variable}`}
     >
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
