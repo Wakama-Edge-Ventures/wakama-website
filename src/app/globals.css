@@ -1,45 +1,52 @@
-@import "tailwindcss";
 @import "../styles/tokens.css";
+@import "tailwindcss";
 
-@theme inline {
-  --color-background: var(--wk-ivory);
-  --color-foreground: var(--wk-ink);
-  --color-paper: var(--wk-paper);
-  --color-bone: var(--wk-bone);
-  --color-graphite: var(--wk-graphite);
-  --color-stone: var(--wk-stone);
-  --color-green: var(--wk-green);
-  --color-green-deep: var(--wk-green-deep);
-  --color-ochre: var(--wk-ochre);
-  --font-sans: var(--font-inter-tight);
-  --font-serif: var(--font-fraunces);
-  --font-mono: var(--font-jetbrains-mono);
+@theme {
+  --color-wk-green: var(--wk-green);
+  --color-wk-green-deep: var(--wk-green-deep);
+  --color-wk-ochre: var(--wk-ochre);
+  --color-wk-ink: var(--wk-ink);
+  --color-wk-graphite: var(--wk-graphite);
+  --color-wk-stone: var(--wk-stone);
+  --color-wk-bone: var(--wk-bone);
+  --color-wk-ivory: var(--wk-ivory);
+  --color-wk-paper: var(--wk-paper);
+  --color-wk-success: var(--wk-success);
+  --color-wk-warning: var(--wk-warning);
+  --color-wk-error: var(--wk-error);
+  --color-wk-info: var(--wk-info);
+
+  --font-display: "Fraunces", "Source Serif 4", Georgia, serif;
+  --font-body: "Inter Tight", system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), "JetBrains Mono", "IBM Plex Mono", monospace;
+  --font-serif: var(--font-display, var(--font-fraunces)), Georgia, serif;
+  --font-sans: var(--font-body, var(--font-inter-tight)), system-ui, sans-serif;
+
+  --container-3xl: 1280px;
 }
 
-* {
-  border-color: rgb(15 26 20 / 8%);
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
-html {
-  scroll-behavior: smooth;
-}
+  body {
+    background-color: var(--wk-ivory);
+    color: var(--wk-ink);
+    font-family: var(--font-body, var(--font-inter-tight)), system-ui, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
 
-body {
-  background: var(--wk-ivory);
-  color: var(--wk-ink);
-  font-family: var(--font-inter-tight), system-ui, sans-serif;
-}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display, var(--font-fraunces)), Georgia, serif;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--wk-graphite);
+  }
 
-a,
-button {
-  transition:
-    color 200ms ease,
-    background-color 200ms ease,
-    border-color 200ms ease,
-    box-shadow 200ms ease,
-    transform 200ms ease;
-}
-
-::selection {
-  background: rgb(45 122 62 / 18%);
+  ::selection {
+    background-color: var(--wk-green);
+    color: var(--wk-paper);
+  }
 }
